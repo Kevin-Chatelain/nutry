@@ -1,0 +1,64 @@
+
+body{
+    padding: 15px;
+}
+
+.texte_presentation {
+    width: 75%;
+    margin-top: 10px;
+}
+
+
+.texte_presentation>p {
+    color: var(--orange);
+    font-family: 'Neue-Haas-bold';
+    font-size: 2.4em;
+    text-transform: uppercase;
+    line-height: 92%;
+    padding-left: 15px;
+}
+
+.cannette {
+    width: 1000px;
+    height: 800px;
+    /* background: rgb(196, 196, 196); */
+    right: -70%;
+    top: 40%;
+    position: fixed;
+    transform: rotate(-10deg);
+    animation: canette-apparition-mobile 1s ease-out forwards;
+}
+
+.cannette>img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+@keyframes canette-apparition {
+    from {
+        top: 40%;
+        transform: rotate(-10deg);
+    }
+
+    to {
+        top: 0%;
+        transform: rotate(0deg);
+    }
+}
+
+
+@keyframes canette-apparition-mobile {
+    from {
+        top: 40%;
+        transform: rotate(-10deg);
+    }
+
+    to {
+        top: 20%;
+        transform: rotate(0deg);
+    }
+}
+
