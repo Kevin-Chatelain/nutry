@@ -23,7 +23,7 @@ body{
     height: 800px;
     /* background: rgb(196, 196, 196); */
     right: -70%;
-    top: 40%;
+    top: 20%;
     position: fixed;
     transform: rotate(-10deg);
     animation: canette-apparition-mobile 1s ease-out forwards;
