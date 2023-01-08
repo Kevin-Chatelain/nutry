@@ -58,8 +58,8 @@ body {
 
 #map { 
     height: 300px; 
-    width: 100%;
-    margin-bottom: 20px;
+    width: 90%;
+    margin: 0 auto 20px auto;
     position: relative;
     z-index: 8;
 }
